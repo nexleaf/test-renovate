@@ -1,0 +1,5 @@
+Django==3.2.6
+httpx[http2]==0.18.2
+
+# include the unpinned development requirements
+-r requirements-dev.in

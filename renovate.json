@@ -1,0 +1,15 @@
+{
+  "enabledManagers": ["pip-compile"],
+  "extends": [
+    "config:base",
+
+    ":preserveSemverRanges",
+    ":semanticCommitScopeDisabled",
+    ":semanticCommitType(build)",
+    ":semanticCommitTypeAll(build)",
+    "group:allNonMajor"
+  ],
+  "pip-compile": {
+    "fileMatch": ["^requirements\\.in$"]
+  }
+}
