@@ -1,5 +1,5 @@
-Django==3.2.6
-httpx[http2]==0.18.2
+Django==3.2.24
+httpx[http2]==0.26.0
 
 # unpinned development requirements
 pytest
